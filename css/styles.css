@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* 
+font-family: 'Lobster', cursive;
+font-family: 'Open Sans', sans-serif; 
+*/
+
+/* ------ Général ------ */
+
+*{box-sizing: border-box;}
+
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* ------ Typographie ------ */
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+h1, h2{
+	font-family: 'Lobster', cursive;
+}
+
+/* ------ Header ------ */
+
+header{
+	padding: 20px 0;
+	background-color: #e2e2e2;
+}
+
+.logo{
+	font-size: 2.5rem;
+	text-decoration: none;
+	color: crimson;
+	font-weight: 600;
+	margin: 0;
+	font-family: 'Lobster', cursive;
+}
+
+nav ul{padding: 0;}
+
+nav li{display: inline-block;}
+
+nav a{
+	display: inline-block;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.actuel{
+	border: 1px solid;
+}
